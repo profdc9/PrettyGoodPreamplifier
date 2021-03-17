@@ -15,4 +15,4 @@ It has the following features:
 
 It is a two-sided PCB and liberally uses dual wiper potentiometers.  The LM4562 is preferentially used for the op-amps, but NE5532 works fine too.
 
-![x](board/Preamp.png)
+![x](Preamp.png)
