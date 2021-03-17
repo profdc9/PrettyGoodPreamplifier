@@ -1,0 +1,25 @@
+<Qucs Schematic 0.0.22>
+<Properties>
+  <View=0,0,800,800,1,0,0>
+  <Grid=10,10,0>
+  <DataSet=differential-driver-out-impedance.dat>
+  <DataDisplay=differential-driver-out-impedance.sch>
+  <OpenDisplay=1>
+  <Script=differential-driver-out-impedance.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+</Diagrams>
+<Paintings>
+</Paintings>

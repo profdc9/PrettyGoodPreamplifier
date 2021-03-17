@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP POT_Dual_Separate_Alt
+D Dual Potentiometer, separate units alt
+K resistor variable alternate
+$ENDCMP
+#
+#End Doc Library
