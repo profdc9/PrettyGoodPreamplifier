@@ -1,14 +1,18 @@
-# Phono Preamplifier
+# Pretty Good Preamplifier
 
-This is a PCB for Bill Christie's phono preamplifier as detailed in his article "Build an External Phonograph Preamplifier" in the 07/13 issue of audioXpress.  The original article can be found at
+This is a stereo preamplifier circuit designed by Daniel Marks, including schematic and gerbers.
 
-https://audioxpress.com/article/You-Can-DIY-Build-an-External-Phono-Preamplifier
+It has the following features:
 
-https://audioxpress.com/assets/upload/files/BillChristieExternalPreampAXJul2013.pdf
+1.  Four selectable audio sources, selected by relays.
+2.  Bass and treble tone control (Baxandall tone control).
+3.  Balance control.
+4.  A subwoofer output with adjustable gain and corner frequency between 20 and 100 Hz.
+5.  Unbalanced and balanced (XLR) outputs for stereo and subwoofer channels.
+6.  Supports a toggle power switch or a volume knob power switch.
+7.  Can be turned on using remote trigger.
+8.  Can send a remote trigger signal when turned on (for example to an amplifier).
 
-The changes made are as follows.  The LME49740, which is not available anymore, has been replaced with two LM4562 op amps.  22 pF Miller capacitors are placed to stabilize the LM4562 from oscillation.  The signal grounds for the two channels are isolated from the power ground by hum breaker resistors.
+It is a two-sided PCB and liberally uses dual wiper potentiometers.  The LM4562 is preferentially used for the op-amps, but NE5532 works fine too.
 
-This is a two-channel PCB layout for the LM3886-based Super Gain Clone by Bob Cordell.  It can be found in Chapter 27 in his book "Audio Amplifiers."
-
-The PCB is made available under the Creative Commons CC-BY-SA 4.0 license.
-
+![x](board/Preamp.png)
