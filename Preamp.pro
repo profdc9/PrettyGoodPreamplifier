@@ -1,4 +1,4 @@
-update=3/17/2021 7:18:18 PM
+update=3/18/2021 1:36:51 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -67,6 +67,7 @@ LibName35=pot_dual_sw
 LibName36=xlr4
 LibName37=pot_dual_separate_alt
 LibName38=that1646
+LibName39=that1200
 [schematic_editor]
 version=1
 PageLayoutDescrFile=

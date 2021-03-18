@@ -149,9 +149,7 @@
 </Wires>
 <Diagrams>
   <Rect 990 585 468 255 3 #c0c0c0 1 10 1 10 1 30000 0 -20 5 20 1 -1 0.5 1 315 0 225 "" "" "">
-	<"ngspice/ac.odb" #0000ff 0 3 0 0 0>
-	<"ngspice/ac.tdb" #ff0000 0 3 0 0 0>
-	<"ngspice/ac.sdb" #ff00ff 0 3 0 0 0>
+	<"ngspice/ac.tdb" #0000ff 0 3 0 0 0>
   </Rect>
 </Diagrams>
 <Paintings>
