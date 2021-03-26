@@ -538,7 +538,7 @@ U 1 1 604FA899
 P 1400 2150
 F 0 "RV1" H 1400 2300 50  0000 C CNN
 F 1 "A10Kdual" H 1400 2225 50  0000 C CNN
-F 2 "Preamp:Dual_Potentiometer_Switch_WirePads" H 1650 2075 50  0001 C CNN
+F 2 "Preamp:Dual_Potentiometer_Switch_Wide_WirePads" H 1650 2075 50  0001 C CNN
 F 3 "" H 1650 2075 50  0001 C CNN
 	1    1400 2150
 	0    1    1    0   
@@ -2447,8 +2447,6 @@ Connection ~ 4800 6600
 Wire Wire Line
 	4800 6950 4800 7000
 Wire Wire Line
-	4300 7300 4500 7300
-Wire Wire Line
 	4300 5900 4500 5900
 Wire Wire Line
 	4100 7200 4100 7100
@@ -3240,4 +3238,18 @@ Wire Wire Line
 	800  2750 800  2800
 Wire Wire Line
 	800  2450 800  2350
+Wire Wire Line
+	4300 7300 4500 7300
+NoConn ~ 2300 7100
+NoConn ~ 1850 7100
+NoConn ~ 1850 7400
+NoConn ~ 2300 7400
+NoConn ~ 2300 7700
+NoConn ~ 1850 7700
+NoConn ~ 1400 7700
+NoConn ~ 950  7700
+NoConn ~ 3300 6950
+NoConn ~ 3300 6600
+NoConn ~ 3350 5850
+NoConn ~ 3350 5500
 $EndSCHEMATC
