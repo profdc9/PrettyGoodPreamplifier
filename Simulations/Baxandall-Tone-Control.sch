@@ -1,6 +1,6 @@
 <Qucs Schematic 0.0.22>
 <Properties>
-  <View=0,0,1585,941,1,1,0>
+  <View=0,0,1585,941,1,1,113>
   <Grid=10,10,1>
   <DataSet=Baxandall-Tone-Control.dat>
   <DataDisplay=Baxandall-Tone-Control.dpl>
@@ -54,7 +54,6 @@
   <R R16 1 530 650 -26 -63 0 2 "50k" 1 "26.85" 0 "0.0" 0 "0.0" 0 "26.85" 0 "european" 0>
   <R R18 1 690 650 -26 -63 0 2 "50k" 1 "26.85" 0 "0.0" 0 "0.0" 0 "26.85" 0 "european" 0>
   <.DC DC1 1 350 30 0 47 0 0 "26.85" 0 "0.001" 0 "1 pA" 0 "1 uV" 0 "no" 0 "150" 0 "no" 0 "none" 0 "CroutLU" 0>
-  <Eqn Eqn1 1 1120 70 -37 18 0 0 "odb=20*log10(abs(OutputV.v))" 1 "endb=20*log10(abs(EndV.v))" 1 "tdb=10*log10(abs(OutputV.v)^2+abs(SubV.v)^2)" 1 "inphsdb=20*log10(abs(OutputV.v+SubV.v))" 1 "outphsdb=20*log10(abs(OutputV.v-SubV.v))" 1 "sdb=20*log10(abs(SubV.v))" 1 "yes" 0>
   <R R4 1 660 350 -26 -63 0 2 "0k" 1 "26.85" 0 "0.0" 0 "0.0" 0 "26.85" 0 "european" 0>
   <R R7 1 720 310 15 -26 0 1 "50k" 1 "26.85" 0 "0.0" 0 "0.0" 0 "26.85" 0 "european" 0>
   <R R8 1 720 420 15 -26 0 1 "50k" 1 "26.85" 0 "0.0" 0 "0.0" 0 "26.85" 0 "european" 0>
@@ -64,8 +63,9 @@
   <R R25 1 200 390 -76 -26 0 1 "3.3k" 1 "26.85" 0 "0.0" 0 "0.0" 0 "26.85" 0 "european" 0>
   <R R10 1 120 290 15 -26 0 1 "9k" 1 "26.85" 0 "0.0" 0 "0.0" 0 "26.85" 0 "european" 0>
   <R R11 1 120 390 -59 -26 0 1 "1k" 1 "26.85" 0 "0.0" 0 "0.0" 0 "26.85" 0 "european" 0>
-  <R R6 1 400 390 15 -26 0 1 "90k" 1 "26.85" 0 "0.0" 0 "0.0" 0 "26.85" 0 "european" 0>
-  <R R5 1 400 310 15 -26 0 1 "10k" 1 "26.85" 0 "0.0" 0 "0.0" 0 "26.85" 0 "european" 0>
+  <Eqn Eqn1 1 1110 100 -37 18 0 0 "odb=20*log10(abs(OutputV.v))" 1 "oangle=real(OutputV.v)" 1 "oangle1=real(OutputV1.v)" 1 "endb=20*log10(abs(EndV.v))" 1 "tdb=10*log10(abs(OutputV.v)^2+abs(SubV.v)^2)" 1 "inphsdb=20*log10(abs(OutputV.v+SubV.v))" 1 "outphsdb=20*log10(abs(OutputV.v-SubV.v))" 1 "sdb=20*log10(abs(SubV.v))" 1 "yes" 0>
+  <R R5 1 400 310 15 -26 0 1 "50k" 1 "26.85" 0 "0.0" 0 "0.0" 0 "26.85" 0 "european" 0>
+  <R R6 1 400 390 15 -26 0 1 "50k" 1 "26.85" 0 "0.0" 0 "0.0" 0 "26.85" 0 "european" 0>
 </Components>
 <Wires>
   <400 420 400 430 "" 0 0 0 "">
@@ -100,7 +100,7 @@
   <400 490 400 530 "" 0 0 0 "">
   <360 430 360 530 "" 0 0 0 "">
   <360 530 400 530 "" 0 0 0 "">
-  <720 170 970 170 "OutputV" 900 140 151 "">
+  <720 170 970 170 "OutputV" 890 120 151 "">
   <970 170 970 320 "" 0 0 0 "">
   <940 320 970 320 "" 0 0 0 "">
   <220 340 220 370 "" 0 0 0 "">
@@ -173,8 +173,9 @@
   <1220 430 1220 430 "EndV" 1250 400 0 "">
 </Wires>
 <Diagrams>
-  <Rect 1089 765 349 189 3 #c0c0c0 1 10 1 10 1 30000 1 0.388471 2e-10 0.388471 1 -1 0.5 1 315 0 225 "" "" "">
-	<"ngspice/ac.v(endv)" #0000ff 0 3 0 0 0>
+  <Rect 1099 765 349 189 3 #c0c0c0 1 10 1 10 1 30000 1 0.0386879 0.1 0.4 1 -1 0.5 1 315 0 225 "" "" "">
+	<"ngspice/ac.oangle" #ff0000 0 3 0 0 0>
+	<"ngspice/ac.oangle1" #ff0000 0 3 0 0 0>
   </Rect>
 </Diagrams>
 <Paintings>
