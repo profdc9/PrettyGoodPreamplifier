@@ -16,4 +16,10 @@ It has the following features:
 
 It is a two-sided PCB that can be manufactured cheaply by, for example, JLCPCB or PCBWay.  The LM4562 is preferentially used for the op-amps, but NE5532 works fine too.  The XLR input uses a THAT1206 or INA137 integrated circuit.  The XLR output uses a THAT1646 or DRV134 integrated circuit.
 
-![x](Preamp.png)
+Here is a picture of the PCB
+
+![x](pics/pcb.png)
+
+Here is a picture of the full preamplifier with the potentiometer extenders in the CAD directory:
+
+![x](pics/fullamp.png)
