@@ -18,8 +18,8 @@ It is a two-sided PCB that can be manufactured cheaply by, for example, JLCPCB o
 
 Here is a picture of the PCB
 
-![x](pics/pcb.png)
+![x](pics/pcb.jpg)
 
 Here is a picture of the full preamplifier with the potentiometer extenders in the CAD directory:
 
-![x](pics/fullamp.png)
+![x](pics/fullamp.jpg)
